@@ -130,3 +130,23 @@ export const faqs = [
     answer:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum molestias sapiente sed, unde ab corrupti ex maxime! Aliquam ea dolores sit incidunt consectetur nobis, est explicabo vitae dolorem fugit tempore? ",
   },
 ]
+
+///////////////////////////////////////////////////////
+// Shop Page
+///////////////////////////////////////////////////////
+
+// ==========================================
+// // For Shop and Products
+// ==========================================
+export const dressCategories = [
+  {
+    id: "dressCategorySarees",
+    title: "Sarees",
+    value: "sarees",
+  },
+  {
+    id: "dressCategoryAccessories",
+    title: "Accessories",
+    value: "accessories",
+  }
+];

@@ -1,17 +1,26 @@
 import ProductCard from "@/components/cards/ProductCard";
+import ShopFilter from "./ShopFilter";
+import ShopProducts from "./ShopProducts";
+import ProductSorting from "./ProductSorting";
 
 export default function Shop({ products }) {
 
     return (
-        <section className="">
+        <section>
             <div className="section-wrapper">
 
                 <h1 className="text-center">Shop</h1>
 
-                <div className="mt-block grid gap-base sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                    {products.map(item => (
-                        <ProductCard product={item} key={item.name} />
-                    ))}
+                {/* Heading & Sorting */}
+                <ProductSorting products={products} />
+
+                <div className="relative pt-base grid md:grid-cols-8 gap-base">
+                    {/* Filter */}
+                    <ShopFilter />
+
+
+                    {/* Products */}
+                    <ShopProducts products={products} />
                 </div>
             </div>
         </section>

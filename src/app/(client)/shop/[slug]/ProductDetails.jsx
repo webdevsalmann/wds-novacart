@@ -35,8 +35,8 @@ export default function ProductDetails({ product }) {
     }
 
     return (
-        <section className="grid gap-6 md:gap-8 md:grid-cols-2">
-            <div className="section-wrapper">
+        <section>
+            <div className="section-wrapper grid gap-base md:gap-block md:grid-cols-2">
                 {/* Image Gallery */}
                 <div>
                     {/* Main Image */}
