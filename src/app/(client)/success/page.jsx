@@ -6,9 +6,6 @@ export default async function page({searchParams:{session_id, }}) {
     const sessionId = session_id;
     const checkoutSession = await stripe?.checkout?.sessions?.retrieve(sessionId)
     const customerDetails = checkoutSession?.customer_details;
-    console.log("Checkout session Id ~", sessionId)
-    console.log("Checkout session ~", checkoutSession)
-    console.log("Checkout details ~", customerDetails)
 
   return (
     <main className="grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8">

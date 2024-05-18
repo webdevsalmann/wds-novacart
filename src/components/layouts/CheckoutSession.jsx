@@ -1,17 +1,13 @@
 "use client"
-import { useEffect } from "react"
 import { CheckCheck, XCircle } from "lucide-react"
-import Stripe from "stripe"
 import { useShoppingCart } from "use-shopping-cart"
 
 export default function CheckoutSession({ customerDetails }) {
     const { clearCart } = useShoppingCart()
-    
-    useEffect(() => {
-        if (customerDetails) {
-            return clearCart()
-        }
-    }, [customerDetails])
+
+    if (customerDetails) {
+        return clearCart()
+    }
 
 
     if (!customerDetails) {
