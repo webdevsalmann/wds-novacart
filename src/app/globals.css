@@ -100,7 +100,7 @@
     left: 0;
     height: 2px;
     width: 100%;
-    background: #000;
+    background: hsl(var(--foreground));
   }
 
   .rest-line>span {

@@ -10,6 +10,7 @@ export default function Providers({ children }) {
             currency="USD"
             shouldPersist
             cartMode="checkout-session"
+            stripe={process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY}
         >
             <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
                 {children}

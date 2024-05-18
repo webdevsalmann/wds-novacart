@@ -13,18 +13,22 @@ export default function Categories() {
           <CategoryCard
             title="Belts"
             imageUrl="/images/products/braided-leather-belt-1.jpg"
-          />
+            link="/shop?category=belts"
+            />
           <CategoryCard
-            title="Sunglasses"
-            imageUrl="/images/products/dock-sunglasses-1.jpg"
-          />
+            title="Gloves"
+            imageUrl="/images/products/leather-gloves-1.jpg"
+            link="/shop?category=gloves"
+            />
           <CategoryCard
-            title="Scarfs"
+            title="Scarves"
             imageUrl="/images/products/wool-scarf-1.jpg"
-          />
+            link="/shop?category=scarves"
+            />
           <CategoryCard
             title="Bags"
             imageUrl="/images/products/khaki-tote-bag-1.jpg"
+            link="/shop?category=bags"
           />
         </div>
       </div>

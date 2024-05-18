@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function CategoryCard({ imageUrl, title }) {
+export default function CategoryCard({ imageUrl, title, link }) {
     return (
-        <Link className="relative rounded-md overflow-hidden hover:scale-105 transition-all group" href={`/shop/`}>
+        <Link className="relative rounded-md overflow-hidden hover:scale-105 transition-all group" href={link}>
             <div className="rounded-md overflow-hidden">
                 <Image
                     className="size-full object-cover"

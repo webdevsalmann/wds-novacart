@@ -40,21 +40,21 @@ export default function Summery({className}) {
                 <div className="py-4 flex-between">
                     <div className="text-muted-foreground">Subtotal</div>
                     <div>
-                        {formattedTotalPrice && formattedTotalPrice}
+                        {formattedTotalPrice}
                     </div>
                 </div>
                 {/* Shipping Amount */}
                 <div className="py-4 flex-between">
                     <div className="text-muted-foreground">Shipping Amount</div>
                     <div>
-                        {shippingAmount && formatCurrencyString({ value: shippingAmount, currency: "USD" })}
+                        {formatCurrencyString({ value: shippingAmount, currency: "USD" })}
                     </div>
                 </div>
                 {/* Order Total */}
                 <div className="py-4 flex-between">
                     <div>Order Total</div>
                     <div>
-                        {totalAmount && formatCurrencyString({ value: totalAmount, currency: "USD" })}
+                        {formatCurrencyString({ value: totalAmount, currency: "USD" })}
                     </div>
                 </div>
             </div>

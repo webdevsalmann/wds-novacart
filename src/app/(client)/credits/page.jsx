@@ -8,33 +8,15 @@ export const metadata = {
 
 const creditData = [
   {
-    id: "cd1",
-    category: "Images",
+    id: "cd2",
+    category: "Project",
     credits: [
       {
-        title: "pexels",
-        link: "https://www.pexels.com/"
+        title: "Code Bootcamp - Full Stack E-Commerce App",
+        link: "https://youtu.be/g2sE034SGjw?si=SqPYd-IkNriX4vA7"
       },
-      // {
-      //   title: "unsplash",
-      //   link: "https://unsplash.com/"
-      // },
-      // {
-      //   title: "pixabay",
-      //   link: "https://pixabay.com/"
-      // },
     ]
-  },
-  // {
-  //   id: "cd2",
-  //   category: "Illustration",
-  //   credits: [
-  //     {
-  //       title: "storyset",
-  //       link: "https://storyset.com"
-  //     },
-  //   ]
-  // }
+  }
 ]
 
 export default function Page() {

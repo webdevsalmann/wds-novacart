@@ -34,17 +34,9 @@ export default function Footer() {
 
 
 
-
-
-
-
-
-
-
-
       {/* Banner */}
       <p className="text-muted-foreground text-sm text-center">
-        &copy;Copyright-2024 / <Link className="hover:underline" href="/credits">Credits</Link> / <Link className="hover:underline" href="/legal">Legal</Link> / Developed by <Link className="hover:underline" href="https://webdevsalmann.com/" target="_blank"> webdevsalmann</Link> 💖
+        &copy;Copyright-2024 / <Link className="hover:underline" href="/credits">Credits</Link> / Developed by <Link className="hover:underline" href="https://webdevsalmann.com/" target="_blank"> webdevsalmann</Link> 💖
       </p>
     </footer>
   )
